@@ -23,6 +23,8 @@ add_action( 'wp_enqueue_scripts', 'domi_custom_customcss_create_gform');
 include $plugin_url . '/includes/gform_after_submission.php';
 include $plugin_url . '/includes/customFunctions.php';
 include $plugin_url . '/includes/gformConfiguration.php';
+include $plugin_url . '/includes/gformMappingTestumgebung.php';
+include $plugin_url . '/includes/gformMappingProduktivumgebung.php';
 
 
 
